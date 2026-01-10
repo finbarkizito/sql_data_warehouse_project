@@ -7,7 +7,7 @@ This portfolio project presents an end-to-end data warehousing and analytics sol
 
 ---
 
-## 🏗️ Data Architecture
+## Data Architecture
 
 The solution follows the **Medallion Architecture**, organised into **Bronze**, **Silver**, and **Gold** layers.
 
@@ -22,7 +22,7 @@ Business-ready data structured into a **star schema**, optimised for reporting a
 
 ---
 
-## 📖 Project Summary
+## Project Summary
 
 This project covers the full lifecycle of a modern data warehouse, including:
 
@@ -33,7 +33,7 @@ This project covers the full lifecycle of a modern data warehouse, including:
 
 ---
 
-## 🎯 Skills Demonstrated
+## Skills Demonstrated
 
 This repository showcases experience in:
 
@@ -59,7 +59,7 @@ All tools used in this project are free and openly available:
 
 ---
 
-## 🚀 Project Requirements
+## Project Requirements
 
 ### Data Engineering – Building the Data Warehouse
 
@@ -93,7 +93,7 @@ For further details, see `docs/requirements.md`.
 
 ---
 
-## 🛡️ License
+## License
 
 This project is released under the **MIT License**. You are free to use, modify, and distribute this work with appropriate attribution.
 
