@@ -91,7 +91,8 @@ For further details, see `docs/requirements.md`.
 
 ---
 ## Credit 
-Credit to Data with Baraa for availing the datasets used in this project
+
+- Credit to Data with Baraa for availing the datasets used in this project
 ---
 
 ## License
