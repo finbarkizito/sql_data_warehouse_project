@@ -90,7 +90,8 @@ These outputs support data-driven decision-making through clear and reliable bus
 For further details, see `docs/requirements.md`.
 
 ---
-
+## Credit 
+Credit to Data with Baraa for availing the datasets used in this project
 ---
 
 ## License
