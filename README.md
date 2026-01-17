@@ -37,7 +37,7 @@ The overall warehouse design follows the Medallion Architecture, separating raw 
 
 ### Medallion Architecture Overview
 
-![Data Warehouse Architecture](docs/images/data_warehouse_architecture.png)
+![Data Warehouse Architecture](documents/images/data_warehouse_architecture.png)
 
 ---
 
@@ -45,7 +45,7 @@ The overall warehouse design follows the Medallion Architecture, separating raw 
 
 The diagram below illustrates how data moves from source systems through the Bronze, Silver, and Gold layers, including transformation and enrichment steps.
 
-![End-to-End Data Flow](docs/images/data_flow_diagram.png)
+![End-to-End Data Flow](documents/images/data_flow_diagram.png)
 
 ---
 
@@ -99,13 +99,13 @@ The Gold Layer is designed using a **Star Schema**, optimised for analytical que
 
 ### Sales Data Mart (Star Schema)
 
-![Sales Data Mart](docs/images/sales_data_mart.png)
+![Sales Data Mart](documents/images/sales_data_mart.png)
 
 ### Data Integration Model
 
 The model below shows how CRM and ERP data are integrated to form conformed dimensions and facts.
 
-![Data Integration Model](docs/images/data_integration_model.png)
+![Data Integration Model](documents/images/data_integration_model.png)
 
 ---
 
