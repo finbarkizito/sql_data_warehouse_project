@@ -31,16 +31,6 @@ The objectives of this project are to:
 
 ---
 
-## Data Architecture
-
-The overall warehouse design follows the Medallion Architecture, separating raw ingestion, transformation, and analytics layers.
-
-### Medallion Architecture Overview
-
-![Data Warehouse Architecture](documents/images/data_warehouse_architecture.png)
-
----
-
 ## Data Flow & Lineage
 
 The diagram below illustrates how data moves from source systems through the Bronze, Silver, and Gold layers, including transformation and enrichment steps.
