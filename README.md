@@ -5,7 +5,7 @@
 
 ## Project Overview
 
-This repository showcases the design and implementation of a modern **SQL Server–based data warehouse**, built end to end to transform raw, fragmented data into a clean, structured, and analytics-ready model.  
+This repository showcases the design and implementation of a modern **SQL Server–based data warehouse**, built end to end to transform raw, fragmented data into a clean, structured, and analytics-ready model.
 
 The solution follows the **Medallion Architecture** (Bronze, Silver, Gold), a widely adopted industry pattern that separates concerns, improves data quality, and supports scalable reporting and analytics.
 
@@ -13,7 +13,7 @@ The solution follows the **Medallion Architecture** (Bronze, Silver, Gold), a wi
 
 ## Business Problem & Objectives
 
-In the current setup, analysts rely heavily on manual data extraction and transformation across multiple systems. This results in slow turnaround times, inconsistent metrics, and limited trust in reporting outputs.
+In this business setup, analysts rely heavily on manual data extraction and transformation across multiple systems. This results in slow turnaround times, inconsistent metrics, and limited trust in reporting outputs.
 
 The objectives of this project are to:
 
@@ -31,6 +31,24 @@ The objectives of this project are to:
 
 ---
 
+## Data Architecture
+
+The overall warehouse design follows the Medallion Architecture, separating raw ingestion, transformation, and analytics layers.
+
+### Medallion Architecture Overview
+
+![Data Warehouse Architecture](docs/images/data_warehouse_architecture.png)
+
+---
+
+## Data Flow & Lineage
+
+The diagram below illustrates how data moves from source systems through the Bronze, Silver, and Gold layers, including transformation and enrichment steps.
+
+![End-to-End Data Flow](docs/images/data_flow_diagram.png)
+
+---
+
 ## Data Sources
 
 The warehouse ingests data from two simulated operational systems, provided as CSV files:
@@ -44,28 +62,6 @@ The warehouse ingests data from two simulated operational systems, provided as C
 - `cust_az12` – Additional customer demographics (gender, birth date)  
 - `loc_a101` – Customer location data  
 - `px_cat_g1v2` – Product category and subcategory hierarchy  
-
----
-
-## Data Architecture
-
-The project is structured using the **Medallion Architecture**, organising data into three logical layers:
-
-### Bronze Layer – Raw
-- Stores source data exactly as received.
-- Loaded directly from CSV files with no transformations.
-- **Purpose:** Traceability, auditability, and data lineage.
-
-### Silver Layer – Cleaned & Standardised
-- Applies data cleansing and standardisation rules.
-- Handles null values, duplicates, and invalid records.
-- Validates business logic (e.g. sales calculations).
-- **Purpose:** Create reliable, consistent datasets.
-
-### Gold Layer – Business Ready
-- Presents curated, analytics-friendly data models.
-- Implemented using **Views** in a **Star Schema**.
-- **Purpose:** Support reporting, dashboards, and ad-hoc analysis.
 
 ---
 
@@ -97,25 +93,19 @@ The ETL pipeline is implemented entirely in **SQL Server** using stored procedur
 
 ---
 
-## Data Modelling & Key Tables
+## Data Modelling & Gold Layer Design
 
-The **Gold Layer** follows a **Star Schema**, optimised for analytical performance.
+The Gold Layer is designed using a **Star Schema**, optimised for analytical queries and BI tools.
 
-### Fact Table
-- **`fact_sales`**  
-  Stores transactional metrics such as sales amount, quantity, and price, linked to dimensions via surrogate keys.
+### Sales Data Mart (Star Schema)
 
-### Dimension Tables
-- **`dim_customers`**  
-  Consolidated customer view combining CRM data with ERP demographics and location attributes.
+![Sales Data Mart](docs/images/sales_data_mart.png)
 
-- **`dim_products`**  
-  Product dimension enriched with category and subcategory hierarchies.
+### Data Integration Model
 
-### Modelling Techniques
-- Surrogate keys generated using `ROW_NUMBER()`
-- Clear one-to-many relationships between dimensions and facts
-- Decoupling from source-system primary keys
+The model below shows how CRM and ERP data are integrated to form conformed dimensions and facts.
+
+![Data Integration Model](docs/images/data_integration_model.png)
 
 ---
 
@@ -129,7 +119,7 @@ Develop SQL-based analytical outputs to generate insights into:
 - Product performance  
 - Sales trends  
 
-These outputs are designed to support **data-driven decision-making** by providing consistent, trusted business metrics.
+These outputs support **data-driven decision-making** through consistent and reliable business metrics.
 
 For additional analytical requirements, see:  
 `docs/requirements.md`
