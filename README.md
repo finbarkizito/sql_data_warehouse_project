@@ -128,10 +128,10 @@ For additional analytical requirements, see:
 
 ## Key Outcomes
 
-- Integrated CRM and ERP data into a unified analytical model  
-- Resolved critical data quality issues (e.g. invalid dates, negative sales)  
-- Implemented metadata tracking for auditability  
-- Produced supporting documentation including a Data Catalog and Data Lineage diagrams  
+- Integrated CRM and ERP data into a unified analytical model.  
+- Resolved critical data quality issues (e.g. invalid dates, negative sales).  
+- Implemented metadata tracking for auditability.  
+- Produced supporting documentation including a Data Catalog and Data Lineage diagrams.  
 
 ---
 
