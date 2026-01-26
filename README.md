@@ -7,13 +7,13 @@
 
 This repository showcases the design and implementation of a modern **SQL Server–based data warehouse**, built end to end to transform raw, fragmented data into a clean, structured, and analytics-ready model.
 
-The solution follows the **Medallion Architecture** (Bronze, Silver, Gold), a widely adopted industry pattern that separates concerns, improves data quality, and supports scalable reporting and analytics.
+The solution follows the **Medallion Architecture** (Bronze, Silver, Gold) which is a widely adopted industry pattern that allows us separate concerns improve data quality and supports scalable reporting and analytics.
 
 ---
 
 ## Business Problem & Objectives
 
-In this business setup, analysts rely heavily on manual data extraction and transformation across multiple systems. This results in slow turnaround times, inconsistent metrics, and limited trust in reporting outputs.
+In this business setup, analysts rely heavily on manual data extraction and transformation across multiple systems. This results in slow turnaround times, inconsistent metrics, and limited trust in reporting outputs among other things
 
 The objectives of this project are to:
 
