@@ -54,7 +54,7 @@ The warehouse ingests data from two simulated operational systems, provided as C
 
 ## ETL & Data Processing Approach
 
-The ETL pipeline is implemented entirely in **SQL Server** using stored procedures.
+The ETL pipeline is implemented entirely in **SQL Server** using the stored procedures.
 
 ### Key Design Choices
 
