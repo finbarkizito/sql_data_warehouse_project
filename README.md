@@ -1,7 +1,4 @@
 # SQL Data Warehouse Project  
-**From Raw Data to Business-Ready Insights**
-
----
 
 ## Project Overview
 
