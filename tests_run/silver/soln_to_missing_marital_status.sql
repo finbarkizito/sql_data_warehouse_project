@@ -1,6 +1,6 @@
 
 /****************************************************************************************
-TITLE: Fixing a Missing Column in the Bronze Layer (Option A – Safe While Working on Silver)
+TITLE: Fixing a Missing Column in the Bronze Layer 
 ****************************************************************************************/
 
 ----------------------------------------
