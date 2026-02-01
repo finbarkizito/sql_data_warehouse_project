@@ -1,5 +1,5 @@
 -- =====================================================
--- CHECK 1: Inspect raw product table structure
+-- CHECK 1: To inspect raw product table structure
 -- Purpose: Baseline inspection of available columns and values
 -- Expectation: Understand raw bronze-level data before transformation
 SELECT
