@@ -1,7 +1,7 @@
 /*============================================================
  Check 1: Primary Key Integrity
  Expectation: No rows returned
- - No NULL primary keys
+ -  There should be no NULL primary keys
  - No duplicate primary keys
 ============================================================*/
 
