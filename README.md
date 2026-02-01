@@ -38,7 +38,7 @@ The diagram below illustrates how data moves from source systems through the Bro
 
 ## Data Sources
 
-The warehouse ingests data from two simulated operational systems, provided as CSV files:
+The warehouse ingests data from two operational systems, provided as CSV files:
 
 ### CRM System
 - `customer_info` – Core customer attributes  
