@@ -46,7 +46,7 @@ The warehouse ingests data from two operational systems, provided as CSV files:
 - `sales_details` – Transaction-level sales data  
 
 ### ERP System
-- `cust_az12` – Additional customer demographics (gender, birth date)  
+- `cust_az12` – Additional customer demographics  like gender and birth date  
 - `loc_a101` – Customer location data  
 - `px_cat_g1v2` – Product category and subcategory hierarchy  
 
