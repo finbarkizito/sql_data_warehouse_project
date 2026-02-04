@@ -21,7 +21,7 @@ The objectives of this project are to:
   Address common data issues such as duplicates, null values, invalid records, and inconsistent formats before analysis.
 
 - **Enable Analytics & Reporting**  
-  Deliver a simplified, business-facing data model (no historisation required) optimised for querying and reporting.
+  Deliver a simplified, business-facing data model which is optimised for querying and reporting.
 
 - **Provide Clear Documentation**  
   Supply technical documentation, data models, and architectural context to support both technical and business users.
