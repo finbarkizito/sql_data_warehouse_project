@@ -1,6 +1,6 @@
 -- =====================================================
 -- GOLD LAYER (dim_product build) — CHECK QUERIES
--- Extracted SELECT statements used to validate “current products”, join coverage, and uniqueness
+-- Extracted SELECT statements used to validate “current products”, join coverage, and uniqueness.
 -- =====================================================
 
 
