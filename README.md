@@ -69,7 +69,7 @@ The ETL pipeline is implemented entirely in **SQL Server** using the stored proc
   - Date range correction using `LEAD()` for continuous timelines
 
 - **Automation:**  
-  Logic wrapped in layer-specific stored procedures:
+  The logic is wrapped in layer-specific stored procedures:
   - `load_bronze`
   - `load_silver`
   - `load_gold`
