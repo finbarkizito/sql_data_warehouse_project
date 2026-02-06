@@ -34,7 +34,7 @@ HAVING COUNT(*) > 1;
 
 -- =====================================================
 -- CHECK 2: Gender integration review (CRM vs ERP)
--- Purpose: Compare gender fields across sources to understand mismatches / NULL-like content
+-- Purpose: Compared gender fields across sources to understand mismatches / NULL-like content
 SELECT DISTINCT
     ci.cst_gndr,
     ca.gen
@@ -66,7 +66,7 @@ ORDER BY 1, 2;
 
 -- =====================================================
 -- CHECK 4: Post-build domain check on gold dimension
--- Purpose: Confirm final gender values in gold.dim_customers look correct after view creation
+-- Purpose: Confirm final gender values in gold.dim_customers look correct after view creation.
 SELECT DISTINCT
     gender
 FROM gold.dim_customers;
