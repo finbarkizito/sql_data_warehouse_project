@@ -10,7 +10,7 @@ CONTEXT
 
 GOAL
 - Convert cst_create_date from NVARCHAR to a proper DATE data type
-- Avoid data loss and avoid breaking the pipeline
+- Avoid data loss and avoid breaking the pipeline.
 ****************************************************************************************/
 
 
