@@ -1,6 +1,6 @@
 -- =====================================================
 -- GOLD LAYER (fact_sales build) — CHECK QUERIES
--- Extracted SELECT statements used to validate the fact grain, dimension joins, and post-build integrity
+-- Extracted SELECT statements used to validate the fact grain, dimension joins, and post-build integrity.
 -- =====================================================
 
 
