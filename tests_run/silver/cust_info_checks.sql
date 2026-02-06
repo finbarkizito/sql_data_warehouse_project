@@ -1,8 +1,7 @@
 /*============================================================
  Check 1: Primary Key Integrity
  Expectation: No rows returned
- -  There should be no NULL primary keys
- - No duplicate primary keys
+ -  There should be no NULL primary keys as well as duplicate primary keys
 ============================================================*/
 
 SELECT
