@@ -1,6 +1,6 @@
 -- =====================================================
 -- GOLD.fact_sales — ROOT CAUSE, FIX, AND VERIFICATION
--- Issue: NULL customer joins caused by using business key instead of surrogate key
+-- Issue: NULL customer joins caused by using business key instead of the surrogate key
 -- =====================================================
 
 
