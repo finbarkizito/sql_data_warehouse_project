@@ -15,7 +15,7 @@ In this business setup, analysts rely heavily on manual data extraction and tran
 The objectives of this project are to:
 
 - **Centralise Data**  
-  Integrate customer, product, and sales data from multiple source systems (CRM and ERP) into a single warehouse.
+  Integrate customer, product, and sales data from multiple source systems i.e., CRM and ERP into a single warehouse.
 
 - **Improve Data Quality**  
   Address common data issues such as duplicates, null values, invalid records, and inconsistent formats before analysis.
